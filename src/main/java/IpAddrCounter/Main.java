@@ -13,7 +13,7 @@ public class Main {
     private static final String PARTITION_PREFIX = "partition_";
 
     public static void main(String[] args) throws IOException {
-        String inputFile = "/Users/david/Desktop/ip-addr.txt"; // provide path of ip-addr.txt
+        String inputFile = "ip-addr.txt"; // provide path of ip-addr.txt
 
         partitionFile(inputFile);
         int uniqueCount = countUniqueIPs();
